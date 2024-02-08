@@ -34,13 +34,12 @@ This project is developed using ROS (Robot Operating System) and C++17. Ensure t
 ### Execution
 To execute a mission, use `mission.launch`, and for system testing, use `test.launch`.
 
-```bash
 # Launch system
+```bash
 roslaunch acc_controller mission.launch
 ```
-
-```bash
 # Launch system with visualizing
+```bash
 roslaunch acc_controller test.launch
 ```
 
