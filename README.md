@@ -36,10 +36,10 @@ To execute a mission, use `mission.launch`, and for system testing, use `test.la
 
 ```bash
 # Launch system
-roslaunch [package name] mission.launch
+roslaunch acc_controller mission.launch
 
 # Launch system with visualizing
-roslaunch [package name] test.launch
+roslaunch acc_controller test.launch
 ```
 
 ## Contributing
