@@ -1,20 +1,50 @@
-# Vehicle Control System Library
+Sure, here's the translation of the README content into English, formatted in Markdown:
 
-This library provides core functionalities for the development of vehicle control systems. It includes algorithms for sensor data processing, object tracking, and the control of vehicle speed and direction.
+---
 
-## Main Components
+# Project Name
 
-- `acc_controller.cpp`: Implementation of vehicle speed and distance control algorithms.
-- `Hungarian.h`: Class for solving the optimal assignment problem using the Hungarian algorithm.
-- `lidar_lib.hpp`: LiDAR sensor data processing and object recognition functionalities.
-- `KalmanTracker.h`: Object tracking algorithm using Kalman filter.
-- `struct.hpp~`: Basic data structures and utility functions.
-- `camera_lib.hpp`: Camera sensor data processing and image analysis functionalities.
-- `car_struct.h`: Definitions of data structures related to vehicles.
+## Overview
+This project aims to develop components for an autonomous driving system for cars or robots. It encompasses sensor data processing, object tracking, and autonomous driving control algorithms.
 
-## Installation
+## File Descriptions
 
-This library is written in C++ and requires a compiler to be installed before use. To use the library, compile the source code and install necessary dependencies as follows:
+### Configuration Files
+- **`params.yaml`**: Contains all the major configuration parameters for the system. This includes settings for sensor accuracy, tracking algorithm parameters, control gains, etc.
+
+### ROS Launch Files
+- **`mission.launch`**: Launches the necessary ROS nodes for actual mission execution. This includes sensor nodes, data processing nodes, etc.
+- **`test.launch`**: Sets up a testing environment to evaluate the system's performance. It is used for testing specific sensors or algorithms.
+
+### C++ Header and Source Files
+- **`KalmanTracker.h`, `Hungarian.h`**: Contains implementations for object tracking algorithms.
+- **`lidar_lib.hpp`, `camera_lib.hpp`**: Libraries for sensor data processing.
+- **`car_struct.h`**: Defines the vehicle data structure.
+- **`acc_controller.cpp`**: Implementation of the Adaptive Cruise Controller.
+
+## Getting Started
+
+### Installing Dependencies
+This project is developed using ROS (Robot Operating System) and C++17. Ensure that the appropriate version of ROS and a C++ compiler are installed.
+
+### Setting Configuration Parameters
+1. Open the `params.yaml` file and adjust the parameters as needed.
+2. These settings will directly affect the performance and operation of the system.
+
+### Execution
+To execute a mission, use `mission.launch`, and for system testing, use `test.launch`.
 
 ```bash
-g++ -std=c++11 -o your_program_name your_program.cpp -lneeded_libraries
+# Launch system
+roslaunch [package name] mission.launch
+
+# Launch system with visualizing
+roslaunch [package name] test.launch
+```
+
+## Contributing
+If you would like to contribute to this project, please submit issues or send Pull Requests. All contributions are welcome.
+
+---
+
+This example provides a clear description and usage instructions for the project. Please adapt the content as necessary for your actual project.
