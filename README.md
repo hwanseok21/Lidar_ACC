@@ -37,7 +37,9 @@ To execute a mission, use `mission.launch`, and for system testing, use `test.la
 ```bash
 # Launch system
 roslaunch acc_controller mission.launch
+```
 
+```bash
 # Launch system with visualizing
 roslaunch acc_controller test.launch
 ```
