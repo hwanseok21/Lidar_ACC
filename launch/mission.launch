@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <rosparam command="load" file="$(find acc_controller)/config/params.yaml" />
+  <node name="carmaker" pkg="acc_controller" type="acc_controller_node" output="screen">
+      
+  </node>
+</launch>
+

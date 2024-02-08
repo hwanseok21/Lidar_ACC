@@ -1,0 +1,39 @@
+<package format="2">
+<name>acc_controller</name>
+<version>0.0.0</version>
+<description>acc_controller</description>
+<maintainer email="seok@todo.todo">hwan</maintainer>
+<license>TODO</license>
+
+<buildtool_depend>catkin</buildtool_depend>
+<build_depend>geometry_msgs</build_depend>
+<build_depend>roscpp</build_depend>
+<build_depend>std_msgs</build_depend>
+<build_depend>sensor_msgs</build_depend>
+<build_depend>visualization_msgs</build_depend>
+<build_depend>pcl_ros</build_depend>
+<build_depend>cv_bridge</build_depend>
+<build_depend>waypoint_maker</build_depend>
+
+<build_export_depend>geometry_msgs</build_export_depend>
+<build_export_depend>roscpp</build_export_depend>
+<build_export_depend>std_msgs</build_export_depend>
+<build_export_depend>sensor_msgs</build_export_depend>
+<build_export_depend>visualization_msgs</build_export_depend>
+<build_export_depend>pcl_ros</build_export_depend>
+<build_export_depend>cv_bridge</build_export_depend>
+<build_export_depend>waypoint_maker</build_export_depend>
+
+<exec_depend>geometry_msgs</exec_depend>
+<exec_depend>roscpp</exec_depend>
+<exec_depend>std_msgs</exec_depend>
+<exec_depend>sensor_msgs</exec_depend>
+<exec_depend>visualization_msgs</exec_depend>
+<exec_depend>pcl_ros</exec_depend>
+<exec_depend>cv_bridge</exec_depend>
+<exec_depend>waypoint_maker</exec_depend>
+<!--  The export tag contains other, unspecified, tags  -->
+<export>
+<!--  Other tools can request additional information be placed here  -->
+</export>
+</package>

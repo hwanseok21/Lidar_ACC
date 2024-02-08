@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="twoD_to_pcl_node" pkg="twoD_to_pcl" type="twoD_to_pcl_node" output="screen">
+
+    <param name="min_x"                 value="-20"/>
+    <param name="max_x"                 value="20"/>
+    <param name="min_y"                 value="-20"/>
+    <param name="max_y"            value="20"/>
+
+
+    <param name="cluster_tolerance"       value="0.5"/>
+    <param name="cluster_minsize"         value="3"/>
+    <param name="cluster_maxsize"         value="2500"/>
+
+  </node>
+</launch>
+

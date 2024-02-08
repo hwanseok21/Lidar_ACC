@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="twoD_to_pcl_node" pkg="twoD_to_pcl" type="twoD_to_pcl_node" output="screen">
+
+    <param name="min_x"                 value="0"/>
+    <param name="max_x"                 value="4"/>
+    <param name="min_y"                 value="-1"/>
+    <param name="max_y"            value="1.5"/>
+
+
+    <param name="cluster_tolerance"       value="0.5"/>
+    <param name="cluster_minsize"         value="1"/>
+    <param name="cluster_maxsize"         value="50"/>
+    
+    <param name="labacone_speed"         value="1500"/> 
+    <param name="labacone_offset"         value="0.5"/> 
+    <param name="labacone_gradient_"         value="5"/>
+
+    <param name="static_start_dist"         value="3"/>   
+    <param name="flag1_finish_dist"         value="1"/> 
+    <param name="flag3_finish_dist"         value="2"/> 
+    <param name="flag2_time_offset"         value="0.001"/>
+      
+    <param name="sep_dynamic"         value="0.01"/>     
+    <param name="dynamic_param"         value="5"/>
+    <param name="static_param"         value="10"/>
+      
+  </node>
+</launch>
+

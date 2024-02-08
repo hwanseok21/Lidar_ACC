@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(twoD_to_pcl)/launch/mission.launch" />
+  <node type="rviz" name="rviz" pkg="rviz" args="-find $(twoD_to_pcl)/rviz/twoD_to_pcl.rviz"/>
+
+</launch>
+

@@ -1,0 +1,11 @@
+#include <library.h>
+
+typedef struct CAR{
+  int id;
+  float width;
+  float height;
+  float x;
+  float y;
+  float z;
+  double vel;
+}CAR;

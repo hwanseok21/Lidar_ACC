@@ -1,0 +1,22 @@
+save_flag: true
+
+acc_controller:
+    tolerance: 0.7
+    cluster_size_max: 10000
+    cluster_size_min: 10
+
+    z_max: 1
+
+    x_max: 30.0
+    x_min: 0.3
+    y_max: 5
+    y_min: -5
+
+    iouThreshold: 0.1
+    box_x_offset: 1
+    box_y_offset: 1
+
+    lpf_offset: 0.5
+    ang_vel_offset: 0.5
+
+     
