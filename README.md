@@ -41,7 +41,3 @@ roslaunch acc_controller test.launch
 
 ## Contributing
 If you would like to contribute to this project, please submit issues or send Pull Requests. All contributions are welcome.
-
----
-
-This example provides a clear description and usage instructions for the project. Please adapt the content as necessary for your actual project.
